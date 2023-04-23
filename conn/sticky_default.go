@@ -12,7 +12,7 @@ package conn
 
 // GetSrcFromControl parses the control for PKTINFO and if found updates ep with
 // the source information found.
-func getSrcFromControl(control []byte, ep *StdNetEndpoint) {
+func GetSrcFromControl(control []byte, ep *StdNetEndpoint) {
 }
 
 // setSrcControl parses the control for PKTINFO and if found updates ep with
